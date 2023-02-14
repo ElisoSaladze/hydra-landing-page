@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hydra-landing-page/static/css/main.757b9e71.css",
+    "main.css": "/hydra-landing-page/static/css/main.62a7dfb2.css",
     "main.js": "/hydra-landing-page/static/js/main.dcef962a.js",
     "static/media/Mask group (3).svg": "/hydra-landing-page/static/media/Mask group (3).1f0b68763af8bbd22967.svg",
     "static/media/Mask group (2).png": "/hydra-landing-page/static/media/Mask group (2).eec966260a3bc4cb00ee.png",
@@ -43,11 +43,11 @@
     "static/media/arrow-small-right.svg": "/hydra-landing-page/static/media/arrow-small-right.77766fcc44ae334d356e7131e1876b7d.svg",
     "static/media/chevron-small-down.svg": "/hydra-landing-page/static/media/chevron-small-down.c130a14a226290b10f32b0593572cb7e.svg",
     "static/media/click.svg": "/hydra-landing-page/static/media/click.eb21834226965b133468c5b1bfca6bca.svg",
-    "main.757b9e71.css.map": "/hydra-landing-page/static/css/main.757b9e71.css.map",
+    "main.62a7dfb2.css.map": "/hydra-landing-page/static/css/main.62a7dfb2.css.map",
     "main.dcef962a.js.map": "/hydra-landing-page/static/js/main.dcef962a.js.map"
   },
   "entrypoints": [
-    "static/css/main.757b9e71.css",
+    "static/css/main.62a7dfb2.css",
     "static/js/main.dcef962a.js"
   ]
 }
