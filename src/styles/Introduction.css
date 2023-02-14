@@ -1,0 +1,130 @@
+.about-parent {
+    margin-top: 100px;
+    font-size: 12px;
+    color: white;
+}
+.text-div-2 .btn-2 {
+    padding: 17px 38px;
+    font-size: 1.16em;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.about-parent span {
+    color: white;
+    font-weight: 700;
+}
+.about-parent h2{
+    font-weight: 300;
+    font-size:2.1em;
+    line-height: 32px;
+}
+.about-parent h3{
+    font-weight: 300;
+    font-size:2.1em;
+    line-height: 32px;
+}
+.about-parent p {
+    font-size: 1em;
+    line-height: 15px;
+    font-weight: 400;
+}
+.title img {
+    display: none;
+}
+.text-div-1 {
+    display: none;
+}
+.text-div-2 h3{
+    display: none;
+}
+.about-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-div-2 {
+    margin-top: 63px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-div-2 p {
+    margin-bottom: 36px;
+}
+.text-div-2 .btn-2 {
+    font-size: 1em;
+    font-weight: 700;
+}
+@media screen and (min-width: 620px) {
+    .about-parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+    }
+    .about-parent .img-div {
+        order: 1;
+        width: 100%;
+    }
+    .about-parent .text-div-2 {
+        order: 2;
+    }
+}
+@media screen and (min-width: 960px) {
+    .about-parent {
+        background-image: url('../assets/Vector\ 7.svg'), url('../assets/Vector\ 8.svg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 30%, 70%;
+
+    }
+    .about-parent .img-div {
+        order: 1;
+    }
+    .about-parent .text-div-2 {
+        width: 100%;
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .text-div-1 {
+        display: flex;
+        justify-content: center;
+    }
+    .title img{
+        display: inline-block;
+
+    }
+    .text-div-2 h3 {
+        display: block;
+        line-height: 44px;
+        margin-top: 0;
+        text-align: start;
+    }
+    .about-parent {
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .about-parent .img-div {
+        width: 100%;
+    }
+    .about-parent p {
+        line-height: 20px;
+    }
+}

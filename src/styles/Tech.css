@@ -1,0 +1,100 @@
+.background {
+    background-image: url('../assets/Mask\ group\ \(3\).svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 60px;
+    position: relative;
+}
+.background h4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 29px;
+}
+.background span {
+    font-size: 0.7em;
+    font-weight: 700;
+    line-height: 19.5px;
+}
+.background {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#tech {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-logos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.slider-3 img {
+    width: 50%;
+    height: auto;
+}
+.slider-3 {
+    height: 256px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.slider-3 {
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+}
+.active-anim {
+    opacity: 1;
+    position: relative;
+}
+.click {
+    display: none;
+}
+@media screen and (min-width: 900px) {
+    .background {
+        margin-top: 110px;
+        border-radius: 160px;
+        width: 100%;
+        background-size: cover;
+        font-size: 36px;
+    }
+    .background h4 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        line-height: 44px;
+        font-size: 1em;
+    }
+    .background span {
+        font-size: 1em;
+    }
+    .four-logos {
+        display: none;
+    }
+    .click {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .nonSlider-3 {
+        display: flex;
+        justify-content: center;
+    }
+    .nonSlider-3 img {
+        width: 80%;
+        height: auto;
+    }
+}
+

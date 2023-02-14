@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+/* reset */
+li {
+  list-style-type: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,p,a,ul,li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+body {
+  align-self: center;
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+  width: 100%;
+  background-color: #302C42;
+}
+/* body {
+  background-image: url('../src/assets/Vector\ 1.svg'), url('../src/assets/Vector\ 2.svg'), url('../src/assets/Vector\ 3.svg');
+  background-repeat: no-repeat;
+  background-position:70% 70%, 30% 70%, 10% 90%;
+} */
+body {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+body {
+  background-image: url('./assets/Vector\ 18.svg'), url('./assets/Vector\ 19.svg'), url('./assets/Vector\ 1.svg'), url('./assets/Vector\ 2.svg'), url('./assets/Vector\ 3.svg');
+  background-repeat: no-repeat;
+  background-position-x: center, center, 80%;
+  background-position-y: 93%, 90%, 1%, 1%, 7%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 960px) {
+  body {
+    background-image: url('./assets/Vector\ 14.svg'), url('./assets/Vector\ 7.svg'), url('./assets/Vector\ 8.svg'), url('./assets/Vector\ 1\ \(1\).svg'), url('./assets/Vector\ 2\ \(1\).svg'), url('./assets/Vector\ 3\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position-x: center, center, center, right, 90%, right;
+    background-position-y: 45%, 94%, 98%, 2%, 1%, 10%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

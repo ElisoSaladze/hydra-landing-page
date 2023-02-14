@@ -1,0 +1,111 @@
+.navbar-div {
+    width: 100%;
+    margin-top: 30px;
+}
+.header {
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.navigation ul a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+.navigation-ul a:hover {
+    color: #8176AF;
+}
+.header button {
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 39px;
+    padding: 17px 38px;
+    font-weight: 700;
+    display: inline-block;
+}
+.btn-1 {
+    color: white;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.btn-1:hover {
+    color:#343045;
+    background-color: white;
+}
+.btn-2 {
+    border: none;
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+.btn-2:hover {
+    color: white;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo .img-1 {
+    margin-right: 10px;
+}
+.navigation {
+    display: none;
+}
+.active {
+    background-color: #302C42;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    opacity: 1;
+    transition: all 0.005s ease;
+    z-index: 1;
+    padding-left: 0;
+    position: absolute;
+    top: 80px;
+    align-items: center;
+}
+.nav-icon {
+    cursor: pointer;
+}
+.navigation-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+@media screen and (min-width: 620px) {  
+}
+@media screen and (min-width: 960px) {
+    .active {
+        display: none;
+    }
+    .nav-icon {
+        display: none;
+    }
+    .navigation-ul {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 50px;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+   .navigation {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}

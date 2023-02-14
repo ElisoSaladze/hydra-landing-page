@@ -1,0 +1,30 @@
+.btn-slide-1 {
+    background: none;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    border: 5px solid rgba(14, 14, 14, 0.32); 
+}
+.btn-slide-1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.prev-1 {
+    left: 4%;
+    transform: translateY(500%);
+  }
+.next-1 {
+    right: 4%;
+    transform: translateY(500%);
+}
+.next-1 img {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+}
+@media screen and (min-width: 960px) {
+    .btn-slide-1 {
+        display: none;
+    }
+}

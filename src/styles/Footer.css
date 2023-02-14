@@ -1,0 +1,111 @@
+footer ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+footer li a{
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+}
+footer p {
+    color: white;
+    font-size: 1em;
+    line-height: 20px;
+    font-weight: 700;
+}
+footer .bor-1 {
+    display: none;
+}
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 55px;
+    margin-bottom: 90px;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+}
+footer .btn-2 {
+    padding: 15px 85px;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.credit {
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.pls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.footer-div {
+    display: flex;
+    justify-content: center;
+}
+.vertical{
+    display: none;
+}
+.bigLine {
+    display: none;
+}
+@media screen and (min-width: 960px) {
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    footer {
+        margin-top: 100px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .bor {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .bor-1 {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .vertical {
+        display: inline-block;
+    }
+    .smallLine {
+        display: none;
+    }
+    .bigLine {
+        width: 90%;
+        display: flex;
+        justify-self: center;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .credit {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+        align-items: center;
+        justify-self: center;
+        justify-content: center;
+    }
+}

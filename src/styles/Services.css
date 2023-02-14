@@ -1,0 +1,34 @@
+.why .none-text {
+    display: none;
+}
+.title {
+    text-align: center;
+}
+.title span {
+    color: white;
+    font-weight: 700;
+}
+.title h2 {
+    color: white;
+    font-weight: 300;
+    font-size:2.1em;
+    line-height: 32px;
+}
+#services {
+    margin-top: 60px;
+}
+@media screen and (min-width: 960px) {
+    .why .title img {
+        display: inline-block;
+    }
+    .why .none-text {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .why {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}

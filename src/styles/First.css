@@ -1,0 +1,99 @@
+.first {
+    margin-top: 100px;
+    /* background-image: url('../assets/Vector\ 1.svg'), url('../assets/Vector\ 2.svg'), url('../assets/Vector\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center; */
+    font-size: 16px;
+}
+.first .text-div p {
+    display: none;
+    text-align: start;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+}
+.first .arrow-btn {
+    display: none;
+}
+.first .text-div h1 {
+    margin-top: 0;
+    font-size: 2.1em;
+    color: white;
+    line-height: 1.5em;
+    text-align: center;
+}
+.first span{
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.first .btn-2 {
+    font-weight: 700;
+    padding: 17px 38px;
+    border-radius: 40px;
+    align-self: center;
+    align-self: center;
+    font-size: 0.75em;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+}
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img-div img {
+    width: 90%;
+    height: auto;
+}
+@media screen and (min-width: 620px) {  
+    .first {
+        font-size: 16px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* .first {
+        background-image: url('../assets/Vector\ 1\ \(1\).svg'), url('../assets/Vector\ 2\ \(1\).svg'), url('../assets/Vector\ 3\ \(1\).svg');
+        background-repeat: no-repeat;
+        background-position-x: 80%;
+    } */
+    .text-div {
+        order: 1;
+    }
+    .img-div {
+        order: 2;
+        width: 40%;
+    }
+    .first .arrow-btn {
+        display: inline-block;
+    }
+    .btn-div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .first .text-div p {
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+}
+.img-div .background {
+    border: 10px solid rgba(0, 0, 0, 0.13);
+    background: rgba(0, 0, 0, 0.13);
+    border-radius: 100px 100px 100px 240px;
+}
