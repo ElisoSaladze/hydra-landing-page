@@ -34,7 +34,7 @@ const Form = () => {
         <input type="tel" placeholder='Phone Number' id="tel" name="tel"/>
         <input className='subj' type="text" placeholder='Subject' id="subject" name="subject"/>
         <textarea placeholder='Tell Us Something' name="text"></textarea>
-        <button  type="submit" class="btn-2">SEND TO HYDRA</button>
+        <button onClick={(event) => event.preventDefault()} type="submit" class="btn-2">SEND TO HYDRA</button>
       </form>
     </div> 
     </div>
