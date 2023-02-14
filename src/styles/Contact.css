@@ -44,6 +44,7 @@
 }
 .active-anim {
     opacity: 1;
+    position: relative;
 }
 .no-slider {
     display: none;

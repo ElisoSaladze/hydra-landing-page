@@ -31,7 +31,6 @@
     background: none;
     border: 1px solid white;
     cursor: pointer;
-    margin-right: 30px;
 }
 .btn-1:hover {
     color:#343045;
@@ -75,6 +74,8 @@
     position: absolute;
     top: 80px;
     align-items: center;
+    row-gap: 20px;
+    padding-bottom: 20px;
 }
 .nav-icon {
     cursor: pointer;
@@ -107,5 +108,8 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+    }
+    .btn-1 {
+        margin-right: 30px;
     }
 }
